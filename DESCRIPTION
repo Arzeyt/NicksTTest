@@ -1,0 +1,23 @@
+Package: NicksTTest
+Title: Enhanced Statistical Testing Functions
+Version: 0.1.0
+Authors@R: 
+    person("Nick", "Eden", , "nick.eden@example.com", role = c("aut", "cre"))
+Description: A collection of enhanced statistical testing functions including 
+    resilient t-tests, ANOVA with automatic post-hoc analysis, and specialized 
+    plotting functions for significance visualization in ggplot2.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    ggplot2,
+    grid,
+    rstatix,
+    stringr,
+    tidyr,
+    tidyverse
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
